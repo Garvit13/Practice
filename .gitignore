@@ -1,1 +1,8 @@
 *.java
+.idea/
+.vscode/
+META-INF/
+myroms/
+out/
+sample/
+src/
