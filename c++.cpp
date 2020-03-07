@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include<iostream>
 using namespace std;
 
 class Garvit
@@ -38,4 +37,4 @@ int main()
 	Sharma.setData(y, z);
 	Sharma.getData();
 	return 0;
-}   
+}
