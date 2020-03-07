@@ -38,4 +38,4 @@ int main()
 	Sharma.setData(y, z);
 	Sharma.getData();
 	return 0;
-}
+}   
