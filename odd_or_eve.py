@@ -1,10 +1,6 @@
-import pdb
-pdb.run('hello')
 user_score = 0
 comp_score = 0
 if_done = 0
-
-
 def odd_or_eve():
     global if_done
     global user_score
