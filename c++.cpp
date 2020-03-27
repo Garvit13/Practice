@@ -1,40 +1,30 @@
 #include<iostream>
 using namespace std;
 
-class Garvit
-{
-private:
-	int a;
-	int b;
+class Point{
+    int x, y;
+    public:
+        Point(int a, int b){
+            x = a;
+            y = b;
+        }
 
-public:
-	int c;
-	int d;
-	void getData();
-	void setData(int a1, int b1);
+        void displayPoint(){
+            cout<<"The point is ("<<x<<", "<<y<<")"<<endl;
+        }
+
 };
+// Create a function (Hint: Make it a friend function) which takes 2 point objects and computes the distance between those 2 points
 
-void Garvit::setData(int a1, int b1)
-{
-	a = a1;
-	b = b1;
-}
+// Use these examples to check your code:
+// Distance between (1, 1) and (1, 1) is 0
+// Distance between (0, 1) and (0, 6) is 5
+// Distance between (1, 0) and (70, 0) is 69
+int main(){
+    Point p(1, 1);
+    p.displayPoint();
 
-void Garvit::getData()
-{
-	cout << "The value of a is " << a << endl;
-	cout << "The value of b is " << b << endl;
-	cout << "The value of c is " << c << endl;
-	cout << "The value of d is " << d << endl;
-}
-int main()
-{
-	int y = 1;
-	int z = 2;
-	Garvit Sharma;
-	Sharma.c = 1;
-	Sharma.d = 2;
-	Sharma.setData(y, z);
-	Sharma.getData();
-	return 0;
+    Point q(4, 6);
+    q.displayPoint();
+    return 0;
 }
