@@ -6,3 +6,4 @@ myroms/
 out/
 sample/*.java
 src/
+.vs/
