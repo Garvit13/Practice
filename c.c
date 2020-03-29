@@ -48,13 +48,14 @@ label1:
     }
     while (1 < 2)
     {
+        char a;
         printf("<---Enter \'N\' to quit and \'Y\' to convet again--->\n");
         scanf("%c", &y_n_input);
-        if ((y_n_input == 'y') || (y_n_input == 'Y'))
+        if ((a == 'y') || (a == 'Y'))
         {
             goto label1;
         }
-        else if ((y_n_input == 'n') || (y_n_input == 'N'))
+        else if ((a == 'n') || (a == 'N'))
         {
             printf("Exit");
             break;
